@@ -123,7 +123,7 @@
   "struct": {
     "prefix": "struct",
     "body": [
-      "const ${1:Name} = struct { ${2:named_field}: ${3:field_type} ${0:default_or_end} };"
+      "const ${1:Name} = struct { ${2:named_field}: ${3:field_type} ${4: = default_or_empty} };"
     ],
     "description": "struct"
   },
